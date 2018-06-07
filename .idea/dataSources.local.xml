@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - proyecto@localhost" uuid="a425ee75-3156-47b6-8473-8690566c0566">
+      <database-info product="PostgreSQL" version="9.4.6" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>proyecto:pg_catalog,public</introspection-schemas>
+      <resolve-scope>proyecto:public</resolve-scope>
+      <unqualified-resolve-schemas>proyecto:public</unqualified-resolve-schemas>
+    </data-source>
+    <data-source name="PostgreSQL - script@localhost" uuid="971e3959-ffee-407d-b72b-3c8c21fc8efd">
+      <database-info product="PostgreSQL" version="9.4.6" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>script:pg_catalog,public</introspection-schemas>
+      <resolve-scope>script:public</resolve-scope>
+      <unqualified-resolve-schemas>script:public</unqualified-resolve-schemas>
+    </data-source>
+    <data-source name="PostgreSQL - aly2@localhost" uuid="515ac29f-de79-4dfc-b704-c41f6db67391">
+      <database-info product="PostgreSQL" version="9.4.6" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>aly2:pg_catalog,public</introspection-schemas>
+      <resolve-scope>aly2:public</resolve-scope>
+      <unqualified-resolve-schemas>aly2:public</unqualified-resolve-schemas>
+    </data-source>
+    <data-source name="alquiler@localhost" uuid="0e9afdee-9702-4483-8dc3-7d21836c31b2">
+      <database-info product="PostgreSQL" version="9.6.3" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>alquiler:public</introspection-schemas>
+    </data-source>
+    <data-source name="alquiler@localhost [2]" uuid="0ba1af35-0fb8-47ff-be24-b6deff676a5b">
+      <database-info product="PostgreSQL" version="9.6.3" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>alquiler:public</introspection-schemas>
+    </data-source>
+  </component>
+</project>

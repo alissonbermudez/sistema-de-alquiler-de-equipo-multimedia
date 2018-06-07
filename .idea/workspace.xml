@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e5409c1-49c8-4e83-b6d6-5dfb30505936" name="Default" comment="" />
+    <ignored path="proyect.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - aly2@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - aly2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="aly2: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="alquiler@localhost [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="alquiler@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="alquiler@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="alquiler: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="alquiler@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="alquiler: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="alquiler@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="alquiler: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="alquiler@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="alquiler: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="comentarios: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="proyect" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="sha.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sha.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/proyect/.htaccess" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/views/admin_view.php" />
+        <option value="$PROJECT_DIR$/sql" />
+        <option value="$PROJECT_DIR$/application/views/admin_base.php" />
+        <option value="$PROJECT_DIR$/application/views/edit_equipo.php" />
+        <option value="$PROJECT_DIR$/application/views/comentarios.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a425ee75-3156-47b6-8473-8690566c0566/console.sql" />
+        <option value="$PROJECT_DIR$/application/controllers/login.php" />
+        <option value="$PROJECT_DIR$/base.sql" />
+        <option value="$PROJECT_DIR$/application/libraries/Pdf.php" />
+        <option value="$PROJECT_DIR$/application/controllers/dompdf_test.php" />
+        <option value="$PROJECT_DIR$/dist/js/data.js" />
+        <option value="$PROJECT_DIR$/application/views/report/report_reservas.php" />
+        <option value="$PROJECT_DIR$/application/views/reportec.php" />
+        <option value="$PROJECT_DIR$/application/models/colecturia_model.php" />
+        <option value="$PROJECT_DIR$/application/views/report/report_colecturia.php" />
+        <option value="$PROJECT_DIR$/application/controllers/colecturia.php" />
+        <option value="$PROJECT_DIR$/application/views/report/report_reservas_canceladas.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/971e3959-ffee-407d-b72b-3c8c21fc8efd/console.sql" />
+        <option value="$PROJECT_DIR$/application/controllers/reporte.php" />
+        <option value="$PROJECT_DIR$/application/views/report/report_equipo.php" />
+        <option value="$PROJECT_DIR$/application/models/admin_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin.php" />
+        <option value="$PROJECT_DIR$/application/views/report/comprobante.php" />
+        <option value="$PROJECT_DIR$/application/views/ver_reserva.php" />
+        <option value="$PROJECT_DIR$/application/views/resumen.php" />
+        <option value="$PROJECT_DIR$/application/views/nuevo_equipo.php" />
+        <option value="$PROJECT_DIR$/application/models/docente_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/docente.php" />
+        <option value="$PROJECT_DIR$/application/controllers/alumno.php" />
+        <option value="$PROJECT_DIR$/application/models/alumno_model.php" />
+        <option value="$PROJECT_DIR$/application/views/mensajes.php" />
+        <option value="$PROJECT_DIR$/application/views/reporte.php" />
+        <option value="$PROJECT_DIR$/application/views/template/header.php" />
+        <option value="$PROJECT_DIR$/application/views/template/header_colecturia.php" />
+        <option value="$PROJECT_DIR$/application/views/template/header_docente.php" />
+        <option value="$PROJECT_DIR$/application/views/template/footer.php" />
+        <option value="$PROJECT_DIR$/application/views/admin_inicio.php" />
+        <option value="$PROJECT_DIR$/application/views/admin_equipo.php" />
+        <option value="$PROJECT_DIR$/application/views/alumno_inicio.php" />
+        <option value="$PROJECT_DIR$/application/views/colector_inicio.php" />
+        <option value="$PROJECT_DIR$/application/views/docente_inicio.php" />
+        <option value="$PROJECT_DIR$/application/views/nueva_reserva.php" />
+        <option value="$PROJECT_DIR$/application/views/nueva_reserva_alumno.php" />
+        <option value="$PROJECT_DIR$/application/views/nueva_reserva_docente.php" />
+        <option value="$PROJECT_DIR$/application/views/reservas.php" />
+        <option value="$PROJECT_DIR$/application/views/login_view.php" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
+        <option value="$PROJECT_DIR$/sha.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="f0b58efc-edd3-4523-b176-3255358f74d2" name="server" port="8000" use_path_mappings="true" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="700" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="proyect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyect" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="proyect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyect" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="proyect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyect" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="proyect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyect" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Escritorio" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/third_party" />
+      <recent name="$PROJECT_DIR$/application/libraries" />
+      <recent name="$PROJECT_DIR$/application/controllers" />
+      <recent name="$PROJECT_DIR$/dashboard" />
+      <recent name="$PROJECT_DIR$/dashboard/dist/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views/report" />
+      <recent name="$PROJECT_DIR$/application/views" />
+      <recent name="$PROJECT_DIR$/application/models" />
+      <recent name="$PROJECT_DIR$/application/views/template" />
+      <recent name="$PROJECT_DIR$/proyect/application/views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="8000" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8000/proyect/dashboard/index.html" />
+    <configuration name="proyect" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/proyect" />
+    </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/proyect/index.php" />
+    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="PHP Script.index.php" />
+      <item itemvalue="PHPUnit.proyect" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="PHPUnit.proyect" />
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e5409c1-49c8-4e83-b6d6-5dfb30505936" name="Default" comment="" />
+      <created>1461905975170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1461905975170</updated>
+      <workItem from="1523678599364" duration="1777000" />
+      <workItem from="1523768879319" duration="2264000" />
+      <workItem from="1524281416089" duration="648000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="proyect - 2016.04.29 at 04h 59m 47s.xml">
+      <configuration name="proyect" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="proyect - 2016.04.29 at 04h 59m 55s.xml">
+      <configuration name="proyect" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="proyect - 2016.04.29 at 05h 51m 55s.xml">
+      <configuration name="proyect" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4689000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="20" width="1346" height="700" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19345239" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5058565" side_tool="true" weight="0.32970452" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.15773809" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.02799378" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49707174" weight="0.33592534" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="11" sideWeight="0.4941435" visible="true" weight="0.05175292" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/login.php</url>
+          <line>6</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://DATABASE/0ba1af35-0fb8-47ff-be24-b6deff676a5b.SCHEMA:alquiler.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>0ba1af35-0fb8-47ff-be24-b6deff676a5b.SCHEMA:alquiler.public</OriginalElement>
+          <nodes>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.estado</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.equipo</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.VIEW:alquiler.public.noprocesadas</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.VIEW:alquiler.public.vistaequipo</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.reservas</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.horarios</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.VIEW:alquiler.public.reservasall</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.users</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.equipo_comentario</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.estado_reserva</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.tipoequipo</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.VIEW:alquiler.public.reservas_sin_pagar</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.VIEW:alquiler.public.vercomentarios</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.VIEW:alquiler.public.reservas_dia</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.VIEW:alquiler.public.ncancel</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.VIEW:alquiler.public.reservas_ent</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.comentarios</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.4383561643835617" x="984.6249999999999" y="607.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbview:/7cd9fdb5/971e3959-ffee-407d-b72b-3c8c21fc8efd/script.public.reservas_ent" />
+    <entry file="dbDummy://dbview:/7cd9fdb5/971e3959-ffee-407d-b72b-3c8c21fc8efd/script.public.noprocesadas" />
+    <entry file="file://$PROJECT_DIR$/application/controllers/dompdf_test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" column="8" selection-start-line="12" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbview:/7cd9fdb5/971e3959-ffee-407d-b72b-3c8c21fc8efd/script.public.reservas_sin_pagar" />
+    <entry file="file://$PROJECT_DIR$/application/views/report/report_reservas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1" column="16" selection-end-line="70" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/colecturia_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbview:/7cd9fdb5/971e3959-ffee-407d-b72b-3c8c21fc8efd/script.public.reservas_dia" />
+    <entry file="file://$PROJECT_DIR$/application/controllers/colecturia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/report/report_reservas_canceladas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/971e3959-ffee-407d-b72b-3c8c21fc8efd/console.sql" />
+    <entry file="file://$PROJECT_DIR$/application/views/report/report_colecturia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/dompdf_gen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbview:/7cd9fdb5/971e3959-ffee-407d-b72b-3c8c21fc8efd/script.public.reservasall" />
+    <entry file="dbDummy://dbview:/7cd9fdb5/971e3959-ffee-407d-b72b-3c8c21fc8efd/script.public.vistaequipo" />
+    <entry file="file://$PROJECT_DIR$/application/views/report/comprobante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="211" column="14" selection-start-line="211" selection-start-column="7" selection-end-line="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/admin_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="155" column="2" selection-start-line="155" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/report/report_equipo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/alumno_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/alumno.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/docente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="95" selection-start-line="91" selection-start-column="8" selection-end-line="96" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/docente_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="35" column="1" selection-start-line="35" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/template/header_colecturia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="93" column="115" selection-start-line="93" selection-start-column="115" selection-end-line="93" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/template/header_docente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="77" column="124" selection-start-line="77" selection-start-column="124" selection-end-line="77" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/template/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin_inicio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="168" column="105" selection-start-line="168" selection-start-column="105" selection-end-line="168" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin_equipo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="68" column="52" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/alumno_inicio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="77" column="159" selection-start-line="77" selection-start-column="159" selection-end-line="77" selection-end-column="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/colector_inicio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="60" column="163" selection-start-line="60" selection-start-column="163" selection-end-line="60" selection-end-column="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/docente_inicio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="75" column="51" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/mensajes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="5" column="114" selection-start-line="5" selection-start-column="114" selection-end-line="5" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/nueva_reserva.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/nueva_reserva_alumno.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/template/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="3" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/nueva_reserva_docente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/reporte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="121" selection-start-line="67" selection-start-column="121" selection-end-line="67" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/reportec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="85" selection-start-line="2" selection-start-column="85" selection-end-line="2" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/reservas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="55" selection-start-line="77" selection-start-column="55" selection-end-line="77" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/resumen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/ver_reserva.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="113" selection-start-line="24" selection-start-column="113" selection-end-line="24" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/0e9afdee-9702-4483-8dc3-7d21836c31b2.SCHEMA:alquiler.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>0e9afdee-9702-4483-8dc3-7d21836c31b2.SCHEMA:alquiler.public</OriginalElement>
+          <nodes>
+            <node x="826.0916666666667" y="0.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.VIEW:alquiler.public.reservas_ent</node>
+            <node x="0.0" y="0.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.tipoequipo</node>
+            <node x="92.09166666666667" y="415.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.comentarios</node>
+            <node x="211.0" y="1031.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.VIEW:alquiler.public.ncancel</node>
+            <node x="623.0" y="758.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.VIEW:alquiler.public.reservasall</node>
+            <node x="265.0916666666667" y="191.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.estado_reserva</node>
+            <node x="0.0" y="758.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.VIEW:alquiler.public.reservas_sin_pagar</node>
+            <node x="348.16666666666663" y="382.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.reservas</node>
+            <node x="637.0916666666667" y="191.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.horarios</node>
+            <node x="213.0" y="758.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.VIEW:alquiler.public.reservas_dia</node>
+            <node x="836.0" y="758.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.VIEW:alquiler.public.noprocesadas</node>
+            <node x="42.34166666666667" y="639.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.equipo_comentario</node>
+            <node x="426.0916666666667" y="158.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.users</node>
+            <node x="0.0" y="1031.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.VIEW:alquiler.public.vercomentarios</node>
+            <node x="167.0" y="0.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.estado</node>
+            <node x="426.0" y="758.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.VIEW:alquiler.public.vistaequipo</node>
+            <node x="85.81666666666666" y="125.0">0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.equipo</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.reservas" target="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.estado_reserva">
+              <point x="-20.999999999999943" y="-103.5" />
+              <point x="411.1666666666667" y="352.0" />
+              <point x="335.5916666666667" y="352.0" />
+              <point x="0.0" y="37.5" />
+            </edge>
+            <edge source="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.comentarios" target="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.equipo">
+              <point x="0.0" y="-70.5" />
+              <point x="169.09166666666667" y="362.0" />
+              <point x="161.81666666666666" y="362.0" />
+              <point x="0.0" y="103.5" />
+            </edge>
+            <edge source="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.equipo" target="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.estado">
+              <point x="38.0" y="-103.5" />
+              <point x="199.81666666666666" y="100.0" />
+              <point x="241.5" y="100.0" />
+              <point x="0.0" y="37.5" />
+            </edge>
+            <edge source="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.reservas" target="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.users">
+              <point x="21.000000000000057" y="-103.5" />
+              <point x="453.1666666666667" y="352.0" />
+              <point x="521.5916666666667" y="352.0" />
+              <point x="0.0" y="70.5" />
+            </edge>
+            <edge source="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.equipo_comentario" target="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.equipo">
+              <point x="-41.5" y="-37.0" />
+              <point x="83.84166666666667" y="614.0" />
+              <point x="81.59166666666667" y="614.0" />
+              <point x="81.59166666666667" y="362.0" />
+              <point x="111.15" y="362.0" />
+              <point x="-50.66666666666666" y="103.5" />
+            </edge>
+            <edge source="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.reservas" target="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.horarios">
+              <point x="63.00000000000006" y="-103.5" />
+              <point x="495.1666666666667" y="362.0" />
+              <point x="709.0916666666667" y="362.0" />
+              <point x="0.0" y="37.5" />
+            </edge>
+            <edge source="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.equipo" target="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.tipoequipo">
+              <point x="-38.0" y="-103.5" />
+              <point x="123.81666666666666" y="100.0" />
+              <point x="73.5" y="100.0" />
+              <point x="0.0" y="37.5" />
+            </edge>
+            <edge source="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.reservas" target="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.equipo">
+              <point x="-62.99999999999994" y="-103.5" />
+              <point x="369.1666666666667" y="362.0" />
+              <point x="212.48333333333332" y="362.0" />
+              <point x="50.66666666666666" y="103.5" />
+            </edge>
+            <edge source="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.equipo_comentario" target="0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.comentarios">
+              <point x="41.5" y="-37.0" />
+              <point x="166.84166666666667" y="614.0" />
+              <point x="169.09166666666667" y="614.0" />
+              <point x="0.0" y="70.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.048474855729596" x="181.0" y="583.0" />
+          <SelectedNodes>
+            <node>0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.estado_reserva</node>
+            <node>0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.comentarios</node>
+            <node>0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.equipo_comentario</node>
+            <node>0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.tipoequipo</node>
+            <node>0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.reservas</node>
+            <node>0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.horarios</node>
+            <node>0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.equipo</node>
+            <node>0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.users</node>
+            <node>0e9afdee-9702-4483-8dc3-7d21836c31b2.TABLE:alquiler.public.estado</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0e9afdee-9702-4483-8dc3-7d21836c31b2/database/alquiler/schema/public/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0e9afdee-9702-4483-8dc3-7d21836c31b2/database/alquiler/schema/public/table/comentarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0ba1af35-0fb8-47ff-be24-b6deff676a5b/database/alquiler/schema/public/table/comentarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/0ba1af35-0fb8-47ff-be24-b6deff676a5b.SCHEMA:alquiler.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>0ba1af35-0fb8-47ff-be24-b6deff676a5b.SCHEMA:alquiler.public</OriginalElement>
+          <nodes>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.estado</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.equipo</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.VIEW:alquiler.public.noprocesadas</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.VIEW:alquiler.public.vistaequipo</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.reservas</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.horarios</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.VIEW:alquiler.public.reservasall</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.users</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.equipo_comentario</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.estado_reserva</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.tipoequipo</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.VIEW:alquiler.public.reservas_sin_pagar</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.VIEW:alquiler.public.vercomentarios</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.VIEW:alquiler.public.reservas_dia</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.VIEW:alquiler.public.ncancel</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.VIEW:alquiler.public.reservas_ent</node>
+            <node x="" y="">0ba1af35-0fb8-47ff-be24-b6deff676a5b.TABLE:alquiler.public.comentarios</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.4383561643835617" x="984.6249999999999" y="607.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/login_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

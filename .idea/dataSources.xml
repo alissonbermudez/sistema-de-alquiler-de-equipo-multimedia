@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="PostgreSQL - proyecto@localhost" uuid="a425ee75-3156-47b6-8473-8690566c0566">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/proyecto</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - script@localhost" uuid="971e3959-ffee-407d-b72b-3c8c21fc8efd">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/script</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - aly2@localhost" uuid="515ac29f-de79-4dfc-b704-c41f6db67391">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/aly2</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="alquiler@localhost" uuid="0e9afdee-9702-4483-8dc3-7d21836c31b2">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/alquiler</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="alquiler@localhost [2]" uuid="0ba1af35-0fb8-47ff-be24-b6deff676a5b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/alquiler</jdbc-url>
+    </data-source>
+  </component>
+</project>

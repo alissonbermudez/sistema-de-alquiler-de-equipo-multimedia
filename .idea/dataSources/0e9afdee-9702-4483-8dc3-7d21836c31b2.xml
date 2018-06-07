@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="alquiler@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.8">
+    <root id="1">
+      <ServerVersion>9.6.3</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="alquiler">
+      <ObjectId>16384</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>12408</ObjectId>
+    </database>
+    <role id="4" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="5" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <schema id="6" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2018-04-13.22:06:52.267</IntrospectionTimestamp>
+      <IntrospectionStateNumber>594</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="7" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="pg_temp_1">
+      <ObjectId>11848</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11849</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="information_schema">
+      <ObjectId>12120</ObjectId>
+    </schema>
+    <table id="12" parent="6" name="comentarios">
+      <ObjectId>16386</ObjectId>
+      <StateNumber>587</StateNumber>
+    </table>
+    <table id="13" parent="6" name="equipo">
+      <ObjectId>16393</ObjectId>
+      <StateNumber>591</StateNumber>
+    </table>
+    <table id="14" parent="6" name="equipo_comentario">
+      <ObjectId>16400</ObjectId>
+      <StateNumber>588</StateNumber>
+    </table>
+    <table id="15" parent="6" name="estado">
+      <ObjectId>16406</ObjectId>
+      <StateNumber>589</StateNumber>
+    </table>
+    <table id="16" parent="6" name="estado_reserva">
+      <ObjectId>16412</ObjectId>
+      <StateNumber>592</StateNumber>
+    </table>
+    <table id="17" parent="6" name="horarios">
+      <ObjectId>16418</ObjectId>
+      <StateNumber>593</StateNumber>
+    </table>
+    <table id="18" parent="6" name="reservas">
+      <ObjectId>16424</ObjectId>
+      <StateNumber>594</StateNumber>
+    </table>
+    <table id="19" parent="6" name="tipoequipo">
+      <ObjectId>16465</ObjectId>
+      <StateNumber>590</StateNumber>
+    </table>
+    <table id="20" parent="6" name="users">
+      <ObjectId>16444</ObjectId>
+      <StateNumber>594</StateNumber>
+    </table>
+    <view id="21" parent="6" name="ncancel">
+      <ObjectId>16436</ObjectId>
+      <StateNumber>562</StateNumber>
+    </view>
+    <view id="22" parent="6" name="noprocesadas">
+      <ObjectId>16440</ObjectId>
+      <StateNumber>563</StateNumber>
+    </view>
+    <view id="23" parent="6" name="reservas_dia">
+      <ObjectId>16450</ObjectId>
+      <StateNumber>565</StateNumber>
+    </view>
+    <view id="24" parent="6" name="reservas_ent">
+      <ObjectId>16455</ObjectId>
+      <StateNumber>566</StateNumber>
+    </view>
+    <view id="25" parent="6" name="reservas_sin_pagar">
+      <ObjectId>16460</ObjectId>
+      <StateNumber>567</StateNumber>
+    </view>
+    <view id="26" parent="6" name="reservasall">
+      <ObjectId>16432</ObjectId>
+      <StateNumber>561</StateNumber>
+    </view>
+    <view id="27" parent="6" name="vercomentarios">
+      <ObjectId>16471</ObjectId>
+      <StateNumber>569</StateNumber>
+    </view>
+    <view id="28" parent="6" name="vistaequipo">
+      <ObjectId>16475</ObjectId>
+      <StateNumber>570</StateNumber>
+    </view>
+    <routine id="29" parent="6" name="limpiar">
+      <ObjectId>16385</ObjectId>
+      <StateNumber>553</StateNumber>
+      <VolatilityKind>volatile</VolatilityKind>
+      <ResultsDefinition>boolean</ResultsDefinition>
+      <LanguageName>plpgsql</LanguageName>
+      <RoutineKind>function</RoutineKind>
+      <ConcurrencyKind>unsafe</ConcurrencyKind>
+      <SecurityDefiner>1</SecurityDefiner>
+      <Cost>100.0</Cost>
+    </routine>
+    <column id="30" parent="12" name="idcoment">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>554</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="31" parent="12" name="fecha">
+      <Position>2</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>554</StateNumber>
+      <DefaultExpression>(&apos;now&apos;::text)::date</DefaultExpression>
+      <TypeId>1082</TypeId>
+    </column>
+    <column id="32" parent="12" name="titulo">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>554</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="33" parent="12" name="comentar">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>554</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="34" parent="12" name="equipo">
+      <Position>5</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>554</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="35" parent="12" name="comentarios_pkey">
+      <ObjectId>16479</ObjectId>
+      <ColNames>idcoment</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="36" parent="12" name="comentarios_pkey">
+      <ObjectId>16480</ObjectId>
+      <ColNames>idcoment</ColNames>
+      <UnderlyingIndexName>comentarios_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="37" parent="12" name="comentarios_equipo_fkey">
+      <ObjectId>16495</ObjectId>
+      <ColNames>equipo</ColNames>
+      <RefTableId>16393</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>equipo</RefTableName>
+      <RefKeyName>equipo_pkey</RefKeyName>
+      <RefColNames>idequipo</RefColNames>
+    </foreign-key>
+    <column id="38" parent="13" name="idequipo">
+      <Position>1</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>555</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="39" parent="13" name="marca">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>555</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="40" parent="13" name="modelo">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>555</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="41" parent="13" name="serie">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>555</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="42" parent="13" name="tipo">
+      <Position>5</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>555</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="43" parent="13" name="descripcion">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>555</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="44" parent="13" name="fechaadq">
+      <Position>7</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>555</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <column id="45" parent="13" name="estado">
+      <Position>8</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>555</StateNumber>
+      <DefaultExpression>1</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="46" parent="13" name="equipo_pkey">
+      <ObjectId>16481</ObjectId>
+      <ColNames>idequipo</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="47" parent="13" name="equipo_pkey">
+      <ObjectId>16482</ObjectId>
+      <ColNames>idequipo</ColNames>
+      <UnderlyingIndexName>equipo_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="48" parent="13" name="equipo_tipo_fkey">
+      <ObjectId>16515</ObjectId>
+      <ColNames>tipo</ColNames>
+      <RefTableId>16465</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>tipoequipo</RefTableName>
+      <RefKeyName>tipoequipo_pkey</RefKeyName>
+      <RefColNames>idtipo</RefColNames>
+    </foreign-key>
+    <foreign-key id="49" parent="13" name="equipo_estado_fkey">
+      <ObjectId>16510</ObjectId>
+      <ColNames>estado</ColNames>
+      <RefTableId>16406</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>estado</RefTableName>
+      <RefKeyName>estado_pkey</RefKeyName>
+      <RefColNames>idestado</RefColNames>
+    </foreign-key>
+    <column id="50" parent="14" name="equipo">
+      <Position>1</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>556</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="51" parent="14" name="comentario">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>556</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="52" parent="14" name="equipo_comentario_equipo_fkey">
+      <ObjectId>16505</ObjectId>
+      <ColNames>equipo</ColNames>
+      <RefTableId>16393</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>equipo</RefTableName>
+      <RefKeyName>equipo_pkey</RefKeyName>
+      <RefColNames>idequipo</RefColNames>
+    </foreign-key>
+    <foreign-key id="53" parent="14" name="equipo_comentario_comentario_fkey">
+      <ObjectId>16500</ObjectId>
+      <ColNames>comentario</ColNames>
+      <RefTableId>16386</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>comentarios</RefTableName>
+      <RefKeyName>comentarios_pkey</RefKeyName>
+      <RefColNames>idcoment</RefColNames>
+    </foreign-key>
+    <column id="54" parent="15" name="idestado">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>557</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="55" parent="15" name="nombre">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>557</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="56" parent="15" name="estado_pkey">
+      <ObjectId>16483</ObjectId>
+      <ColNames>idestado</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="57" parent="15" name="estado_pkey">
+      <ObjectId>16484</ObjectId>
+      <ColNames>idestado</ColNames>
+      <UnderlyingIndexName>estado_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="58" parent="16" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>558</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="59" parent="16" name="estado">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>558</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="60" parent="16" name="estado_reserva_pkey">
+      <ObjectId>16485</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="61" parent="16" name="estado_reserva_pkey">
+      <ObjectId>16486</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>estado_reserva_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="62" parent="17" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>559</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="63" parent="17" name="horario">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>559</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="64" parent="17" name="horarios_pkey">
+      <ObjectId>16487</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="65" parent="17" name="horarios_pkey">
+      <ObjectId>16488</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>horarios_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="66" parent="18" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>560</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="67" parent="18" name="fecha">
+      <Position>2</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>560</StateNumber>
+      <DefaultExpression>(&apos;now&apos;::text)::date</DefaultExpression>
+      <TypeId>1082</TypeId>
+    </column>
+    <column id="68" parent="18" name="fecha_reserva">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>560</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <column id="69" parent="18" name="usuario">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>560</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="70" parent="18" name="equipo">
+      <Position>5</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>560</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="71" parent="18" name="horario">
+      <Position>6</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>560</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="72" parent="18" name="estado">
+      <Position>7</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>560</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="73" parent="18" name="pagado">
+      <Position>8</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>560</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+      <TypeId>16</TypeId>
+    </column>
+    <index id="74" parent="18" name="reservas_pkey">
+      <ObjectId>16489</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="75" parent="18" name="reservas_pkey">
+      <ObjectId>16490</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>reservas_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="76" parent="18" name="reservas_usuario_fkey">
+      <ObjectId>16535</ObjectId>
+      <ColNames>usuario</ColNames>
+      <RefTableId>16444</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>users</RefTableName>
+      <RefKeyName>users_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="77" parent="18" name="reservas_equipo_fkey">
+      <ObjectId>16520</ObjectId>
+      <ColNames>equipo</ColNames>
+      <RefTableId>16393</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>equipo</RefTableName>
+      <RefKeyName>equipo_pkey</RefKeyName>
+      <RefColNames>idequipo</RefColNames>
+    </foreign-key>
+    <foreign-key id="78" parent="18" name="reservas_horario_fkey">
+      <ObjectId>16530</ObjectId>
+      <ColNames>horario</ColNames>
+      <RefTableId>16418</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>horarios</RefTableName>
+      <RefKeyName>horarios_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="79" parent="18" name="reservas_estado_fkey">
+      <ObjectId>16525</ObjectId>
+      <ColNames>estado</ColNames>
+      <RefTableId>16412</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>estado_reserva</RefTableName>
+      <RefKeyName>estado_reserva_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="80" parent="19" name="idtipo">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>568</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="81" parent="19" name="nombre">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>568</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="82" parent="19" name="tipoequipo_pkey">
+      <ObjectId>16491</ObjectId>
+      <ColNames>idtipo</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="83" parent="19" name="tipoequipo_pkey">
+      <ObjectId>16492</ObjectId>
+      <ColNames>idtipo</ColNames>
+      <UnderlyingIndexName>tipoequipo_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="84" parent="20" name="id">
+      <Position>1</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>564</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="85" parent="20" name="perfil">
+      <Position>2</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <StateNumber>564</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="86" parent="20" name="username">
+      <Position>3</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <StateNumber>564</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="87" parent="20" name="password">
+      <Position>4</Position>
+      <DataType>varchar(250)|0s</DataType>
+      <StateNumber>564</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="88" parent="20" name="nombre">
+      <Position>5</Position>
+      <DataType>varchar(150)|0s</DataType>
+      <StateNumber>564</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="89" parent="20" name="users_pkey">
+      <ObjectId>16493</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="90" parent="20" name="users_pkey">
+      <ObjectId>16494</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="91" parent="21" name="num">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>562</StateNumber>
+    </column>
+    <column id="92" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>563</StateNumber>
+    </column>
+    <column id="93" parent="22" name="usuario">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>563</StateNumber>
+    </column>
+    <column id="94" parent="22" name="equipo">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>563</StateNumber>
+    </column>
+    <column id="95" parent="22" name="horario">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>563</StateNumber>
+    </column>
+    <column id="96" parent="22" name="estado">
+      <Position>5</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>563</StateNumber>
+    </column>
+    <column id="97" parent="22" name="fecha">
+      <Position>6</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>563</StateNumber>
+    </column>
+    <column id="98" parent="22" name="fecha_reserva">
+      <Position>7</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>563</StateNumber>
+    </column>
+    <column id="99" parent="23" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>565</StateNumber>
+    </column>
+    <column id="100" parent="23" name="usuario">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>565</StateNumber>
+    </column>
+    <column id="101" parent="23" name="equipo">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>565</StateNumber>
+    </column>
+    <column id="102" parent="23" name="horario">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>565</StateNumber>
+    </column>
+    <column id="103" parent="23" name="estado">
+      <Position>5</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>565</StateNumber>
+    </column>
+    <column id="104" parent="23" name="fecha">
+      <Position>6</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>565</StateNumber>
+    </column>
+    <column id="105" parent="23" name="fecha_reserva">
+      <Position>7</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>565</StateNumber>
+    </column>
+    <column id="106" parent="23" name="pagado">
+      <Position>8</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>565</StateNumber>
+    </column>
+    <column id="107" parent="23" name="perfil">
+      <Position>9</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <StateNumber>565</StateNumber>
+    </column>
+    <column id="108" parent="24" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>566</StateNumber>
+    </column>
+    <column id="109" parent="24" name="usuario">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>566</StateNumber>
+    </column>
+    <column id="110" parent="24" name="equipo">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>566</StateNumber>
+    </column>
+    <column id="111" parent="24" name="horario">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>566</StateNumber>
+    </column>
+    <column id="112" parent="24" name="estado">
+      <Position>5</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>566</StateNumber>
+    </column>
+    <column id="113" parent="24" name="fecha">
+      <Position>6</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>566</StateNumber>
+    </column>
+    <column id="114" parent="24" name="fecha_reserva">
+      <Position>7</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>566</StateNumber>
+    </column>
+    <column id="115" parent="24" name="pagado">
+      <Position>8</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>566</StateNumber>
+    </column>
+    <column id="116" parent="24" name="perfil">
+      <Position>9</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <StateNumber>566</StateNumber>
+    </column>
+    <column id="117" parent="25" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>567</StateNumber>
+    </column>
+    <column id="118" parent="25" name="usuario">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>567</StateNumber>
+    </column>
+    <column id="119" parent="25" name="equipo">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>567</StateNumber>
+    </column>
+    <column id="120" parent="25" name="horario">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>567</StateNumber>
+    </column>
+    <column id="121" parent="25" name="estado">
+      <Position>5</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>567</StateNumber>
+    </column>
+    <column id="122" parent="25" name="fecha">
+      <Position>6</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>567</StateNumber>
+    </column>
+    <column id="123" parent="25" name="fecha_reserva">
+      <Position>7</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>567</StateNumber>
+    </column>
+    <column id="124" parent="25" name="pagado">
+      <Position>8</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>567</StateNumber>
+    </column>
+    <column id="125" parent="25" name="perfil">
+      <Position>9</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <StateNumber>567</StateNumber>
+    </column>
+    <column id="126" parent="26" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>561</StateNumber>
+    </column>
+    <column id="127" parent="26" name="usuario">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>561</StateNumber>
+    </column>
+    <column id="128" parent="26" name="equipo">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>561</StateNumber>
+    </column>
+    <column id="129" parent="26" name="horario">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>561</StateNumber>
+    </column>
+    <column id="130" parent="26" name="estado">
+      <Position>5</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>561</StateNumber>
+    </column>
+    <column id="131" parent="26" name="fecha">
+      <Position>6</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>561</StateNumber>
+    </column>
+    <column id="132" parent="26" name="fecha_reserva">
+      <Position>7</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>561</StateNumber>
+    </column>
+    <column id="133" parent="27" name="idcoment">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>569</StateNumber>
+    </column>
+    <column id="134" parent="27" name="fecha">
+      <Position>2</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>569</StateNumber>
+    </column>
+    <column id="135" parent="27" name="titulo">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>569</StateNumber>
+    </column>
+    <column id="136" parent="27" name="comentar">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>569</StateNumber>
+    </column>
+    <column id="137" parent="27" name="equipo">
+      <Position>5</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>569</StateNumber>
+    </column>
+    <column id="138" parent="27" name="comentario">
+      <Position>6</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>569</StateNumber>
+    </column>
+    <column id="139" parent="28" name="idequipo">
+      <Position>1</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>570</StateNumber>
+    </column>
+    <column id="140" parent="28" name="marca">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>570</StateNumber>
+    </column>
+    <column id="141" parent="28" name="modelo">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>570</StateNumber>
+    </column>
+    <column id="142" parent="28" name="serie">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>570</StateNumber>
+    </column>
+    <column id="143" parent="28" name="tipo">
+      <Position>5</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>570</StateNumber>
+    </column>
+    <column id="144" parent="28" name="descripcion">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>570</StateNumber>
+    </column>
+    <column id="145" parent="28" name="fechaadq">
+      <Position>7</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>570</StateNumber>
+    </column>
+    <column id="146" parent="28" name="estado">
+      <Position>8</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>570</StateNumber>
+    </column>
+    <argument id="147" parent="29">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>boolean|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>
